@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Carnaval Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff9f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff4081;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd54f;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #ff4081;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .imagens img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .imagens img:hover {
+            transform: scale(1.05);
+        }
+
+        .video {
+            margin: 30px 0;
+        }
+
+        .video iframe {
+            width: 80%;
+            max-width: 900px;
+            height: 500px;
+            border-radius: 10px;
+        }
+
+        .destaques {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .destaque-item {
+            background-color: #ffccbc;
+            padding: 20px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .destaque-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .destaque-item h3 {
+            font-size: 24px;
+            color: #ff4081;
+        }
+
+        .destaque-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .destaque-item a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #ff4081;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #ff4081;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/im5.jfif" alt="Logo do Carnaval" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blocoderua.html">Bloco na Rua</a></li>
+                <li><a href="dicasFantasia.html">Dicas de Fantasias</a></li>
+                <li><a href="melhoresDestinos.html">Melhores Destinos</a></li>
+                <li><a href="curtirEmCasa.html">Curta em Casa</a></li>
+                <li><a href="historiaCarnaval.html">História do Carnaval</a></li>
+                <li><a href="musicaCarnaval.html">Música de Carnaval</a></li>
+                <li><a href="gastronomiaCarnaval.html">Gastronomia de Carnaval</a></li>
+                <li><a href="segurançaCarnaval.html">Segurança no Carnaval</a></li>
+                <li><a href="foliaSustentavel.html">Folia Sustentável</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="img/bannercarnaval.avif" alt="Carnaval Home Banner">
+    </section>
+
+    <main>
+        <h1>Bem-vindo ao Carnaval Online!</h1>
+        <p>O Carnaval é a festa mais alegre e colorida do Brasil! Aqui você encontra tudo sobre a folia: dicas para curtir o melhor do Carnaval, aprender sobre sua história, explorar os pratos típicos e, claro, dançar ao som das melhores músicas! Navegue pelos links abaixo e mergulhe nesse mundo de diversão e cultura!</p>
+
+        <section class="imagens">
+            <img src="img/img2.jfif" alt="Imagem de Carnaval 1">
+            <img src="img/img3.jfif" alt="Imagem de Carnaval 2">
+            <img src="img/img4.jfif" alt="Imagem de Carnaval 3">
+        </section>
+
+        <section class="video">
+            <h2>Assista ao vídeo sobre o Carnaval</h2>
+            <iframe src="https://www.youtube.com/watch?v=vZHElqAzXR8&pp=ygUWZGlvZ28gZGVmYW50ZSBjYXJuYXZhbA%3D%3D" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="destaques">
+            <div class="destaque-item">
+                <h3>Bloco na Rua</h3>
+                <p>Descubra os melhores blocos de rua e as dicas para se divertir com segurança. O Carnaval de rua é uma das maiores manifestações culturais do Brasil!</p>
+                <a href="blocoderua.html">Saiba mais</a>
+            </div>
+            <div class="destaque-item">
+                <h3>Segurança no Carnaval</h3>
+                <p>Saiba como se proteger durante a folia e aproveitar a festa com responsabilidade, garantindo uma experiência divertida e segura.</p>
+                <a href="segurancaCarnaval.html">Saiba mais</a>
+            </div>
+            <div class="destaque-item">
+                <h3>Gastronomia de Carnaval</h3>
+                <p>Conheça os pratos típicos e deliciosos que não podem faltar no Carnaval! Prepare-se para saborear delícias como feijoada, acarajé, e muito mais.</p>
+                <a href="gastronomiaCarnaval.html">Saiba mais</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carnaval Online - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

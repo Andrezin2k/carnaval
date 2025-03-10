@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco na Rua - Carnaval</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff9f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff4081;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd54f;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #ff4081;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff4081;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .imagens {
+            margin: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .imagens img {
+            width: 32%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .imagens img:hover {
+            transform: scale(1.05);
+        }
+
+        .video {
+            margin: 30px 0;
+        }
+
+        .video iframe {
+            width: 80%;
+            max-width: 900px;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dicas {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .dica-item {
+            background-color: #ffccbc;
+            padding: 20px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            text-align: center;
+        }
+
+        .dica-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .dica-item h3 {
+            font-size: 24px;
+            color: #ff4081;
+        }
+
+        .dica-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #ff4081;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/img1.jfif" alt="Logo do Carnaval" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blocoRua.html">Bloco na Rua</a></li>
+                <li><a href="dicasFantasia.html">Dicas de Fantasias</a></li>
+                <li><a href="melhoresDestinos.html">Melhores Destinos</a></li>
+                <li><a href="curtirEmCasa.html">Curta em Casa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="img/blocoRuaBanner.jpg" alt="Bloco na Rua">
+    </section>
+
+    <main>
+        <h1>Melhores Dicas para Curtir o Bloco na Rua</h1>
+        <p>O Carnaval de rua é uma das tradições mais emocionantes e cheias de energia do Brasil! Para curtir de verdade, é essencial seguir algumas dicas que vão garantir a sua diversão e segurança. Confira abaixo como aproveitar o melhor dessa experiência!</p>
+
+        <section class="imagens">
+            <img src="img/img4.jfif" alt="Bloco 1">
+            <img src="img/im5.jfif" alt="Bloco 2">
+            <img src="img/img6.jfif" alt="Bloco 3">
+        </section>
+
+        <section class="video">
+            <h2>Assista ao vídeo sobre os blocos de rua</h2>
+            <iframe src="https://www.youtube.com/watch?v=Ucx8p66DiqI&pp=ygUIY2FybmF2YWw%3D" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="dicas">
+            <div class="dica-item">
+                <h3>Leve o Básico</h3>
+                <p>Para garantir que você aproveite o bloco sem perrengues, não se esqueça de levar o essencial: documentos, água, e protetor solar!</p>
+            </div>
+            <div class="dica-item">
+                <h3>Escolha o Bloco Certo</h3>
+                <p>Pesquise sobre os blocos que estão rolando na sua cidade! Cada um tem sua vibe, desde os mais animados até os mais tranquilos.</p>
+            </div>
+            <div class="dica-item">
+                <h3>Respeite os Outros</h3>
+                <p>Divirta-se com respeito! No bloco, todo mundo está ali para se divertir, então o respeito ao próximo é essencial para um Carnaval tranquilo e alegre.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carnaval Online - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

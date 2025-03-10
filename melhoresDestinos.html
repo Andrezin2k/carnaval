@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhores Destinos - Carnaval</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f3e9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff4081;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd54f;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #ff4081;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff4081;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .destinos {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .destino-item {
+            width: 30%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .destino-item:hover {
+            transform: scale(1.05);
+        }
+
+        .destino-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .destino-item h3 {
+            font-size: 24px;
+            margin: 15px 0;
+            color: #ff4081;
+        }
+
+        .destino-item p {
+            font-size: 16px;
+            color: #555;
+            padding: 0 20px 20px 20px;
+        }
+
+        .video {
+            margin: 30px 0;
+        }
+
+        .video iframe {
+            width: 80%;
+            max-width: 900px;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #ff4081;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/img1.jfif" alt="Logo do Carnaval" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blocoRua.html">Bloco na Rua</a></li>
+                <li><a href="dicasFantasia.html">Dicas de Fantasias</a></li>
+                <li><a href="melhoresDestinos.html">Melhores Destinos</a></li>
+                <li><a href="curtirEmCasa.html">Curta em Casa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="img/melhoresDestinosBanner.jpg" alt="Melhores Destinos">
+    </section>
+
+    <main>
+        <h1>Melhores Destinos para Curtir o Carnaval</h1>
+        <p>Confira os lugares mais incríveis para curtir o Carnaval com muita diversão e energia! Se você está buscando um destino para viver a verdadeira folia, aqui estão algumas opções imperdíveis.</p>
+
+        <section class="destinos">
+            <div class="destino-item">
+                <img src="img/img10.jfif" alt="Destino 1">
+                <h3>Rio de Janeiro</h3>
+                <p>O Rio é a cidade do Samba, do Cristo Redentor e do maior Carnaval do mundo. Desça até o Sambódromo e viva a experiência única dos desfiles.</p>
+            </div>
+
+            <div class="destino-item">
+                <img src="img/img11.jfif" alt="Destino 2">
+                <h3>Salvador</h3>
+                <p>Em Salvador, o Carnaval é uma explosão de alegria. As ruas se enchem de blocos, trios elétricos e o famoso Axé que contagiou o Brasil inteiro!</p>
+            </div>
+
+            <div class="destino-item">
+                <img src="img/img12.jfif" alt="Destino 3">
+                <h3>Recife</h3>
+                <p>Recife e Olinda são sinônimos de frevo e muito calor humano. Se você ama dançar e se jogar na folia, não pode deixar de visitar essas cidades no Carnaval.</p>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Assista ao vídeo sobre os melhores destinos para o Carnaval</h2>
+            <iframe src="https://www.youtube.com/watch?v=R53A721FcLE&pp=ygUIY2FybmF2YWw%3D" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carnaval Online - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
