@@ -1,0 +1,261 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body do site */
+body {
+    background-color: #000000; /* Fundo preto */
+    color: #fff; /* Texto branco para contraste */
+    line-height: 1.6;
+    font-size: 16px;
+    overflow-x: hidden; /* Evita o scroll horizontal */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1a1a; /* Preto suave */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+header h1 span {
+    color: #9E7D53; /* Marrom claro para o destaque */
+}
+
+/* Menu de navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000; /* Preto */
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #1E90FF; /* Azul para o hover */
+    transform: scale(1.1);
+}
+
+/* Seções principais */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #222222; /* Preto suave */
+}
+
+section h2 {
+    font-size: 3rem;
+    color: #9E7D53; /* Marrom claro */
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Cards ou informações */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 320px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #3e2c41;
+    font-size: 2rem;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #555;
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Background criativo com gradiente */
+section.background {
+    background: linear-gradient(135deg, #1a1a1a, #5a4d3a); /* Gradiente de preto para marrom */
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    box-shadow: inset 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+section.background h2 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    color: #1E90FF; /* Azul para dar destaque */
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000; /* Preto */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1.1rem;
+    color: #ddd;
+    letter-spacing: 1px;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input, form textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #1E90FF; /* Azul no foco */
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #9E7D53; /* Marrom claro */
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5a4d3a; /* Tom mais escuro de marrom */
+}
+
+/* Botões de chamada para ação */
+button.cta {
+    background-color: #9E7D53; /* Marrom claro */
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+}
+
+button.cta:hover {
+    background-color: #5a4d3a; /* Tom mais escuro de marrom */
+}
+
+/* Animação de scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 40px 10px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        margin: 0 10px;
+    }
+
+    form {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    button.cta {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 2.2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    button.cta {
+        font-size: 1rem;
+    }
+}
